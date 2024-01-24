@@ -1,5 +1,7 @@
-#미미미누님은 처음2개(1,2번째)
-#형님은 다음2개 (3,4번째)
+
+#민우님은 처음2개(1,2번째)
+#우석형님은 다음2개 (3,4번째)
+#김우석형님 바보
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
