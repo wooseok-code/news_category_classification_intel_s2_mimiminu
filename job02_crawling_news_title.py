@@ -29,7 +29,9 @@ driver = webdriver.Chrome(service=service, options=options)
 pages = [105, 105, 105, 81, 105, 81] #그래서 학습데이터 개수 균형 맞춰주기
 
 df_titles = pd.DataFrame()
+
 for l in range(2):  #정치인지, 경제인지...
+
     section_url = 'https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=10{}'.format(l)
     titles = []
     for k in range(1, pages[l]): #1~105페이지 긁기위해
