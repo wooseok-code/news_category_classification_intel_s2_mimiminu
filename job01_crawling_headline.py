@@ -35,6 +35,7 @@ import datetime
 
 
 
+
 #url 뒤에 숫자만 바꿔주면서 정치,경제~ 세계거 가져오기
 
 category = ['Politics', 'Economy', 'social', 'Culture', 'World', 'IT']
